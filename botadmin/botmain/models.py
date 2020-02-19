@@ -10,7 +10,8 @@ class User(models.Model):
     age = models.IntegerField(null=True)
     city = models.CharField(max_length=55)
     sex = models.CharField(max_length=10)
-    about = models.TextField
+    about = models.CharField(max_length=255, null=True)
+    balance = models.IntegerField(null=False)
 
     def __str__(self):
         return self.name
@@ -56,4 +57,21 @@ class Donate(models.Model):
         verbose_name = 'Донат'
         verbose_name_plural = 'Донаты'
 
+
+class Button(models.Model):
+    first_button = models.CharField(max_length=55)
+    second_button = models.CharField(max_length=55)
+    third_button = models.CharField(max_length=55)
+    fourth_button = models.CharField(max_length=55)
+    fifth_button = models.CharField(max_length=55)
+    sixth_button = models.CharField(max_length=55)
+    seventh_button = models.CharField(max_length=55)
+    eighth_button = models.CharField(max_length=55)
+
+    def __str__(self):
+        return self.first_button
+
+    class Meta:
+        verbose_name = 'Кнопка'
+        verbose_name_plural = 'Кнопки'
 

@@ -17,5 +17,6 @@ class DonateAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Task, TaskAdmin)
+admin.site.register(Button)
 admin.site.register(User, UserAdmin)
 admin.site.register(Donate, DonateAdmin)

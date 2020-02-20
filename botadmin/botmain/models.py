@@ -75,3 +75,14 @@ class Button(models.Model):
         verbose_name = 'Кнопка'
         verbose_name_plural = 'Кнопки'
 
+
+class Maker(models.Model):
+    task_id = models.ManyToManyField(Task, verbose_name='tasks')
+    user_id = models.ManyToManyField(User, verbose_name='makers')
+
+    def __str__(self):
+        return self.user_id
+
+    class Meta:
+        verbose_name = 'Исполнитель'
+        verbose_name_plural = 'Исполнители'

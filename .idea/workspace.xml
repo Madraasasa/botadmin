@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e045bec-9d20-492d-b626-2e0bc035f6de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/botadmin/botmain/send_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botadmin/botmain/template/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botadmin/botmain/template/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/botadmin/botmain/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/botadmin-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/botadmin-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botadmin/botadmin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botadmin/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botadmin/botadmin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botadmin/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botadmin/botmain/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botmain/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botadmin/botmain/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botmain/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botadmin/botmain/template/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botmain/template/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/botadmin/botmain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botmain/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

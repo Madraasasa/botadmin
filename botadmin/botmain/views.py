@@ -18,6 +18,6 @@ def select_all(request):
     return render(request, 'main.html', {'messages': li})
 
 
-def select_detail(request):
-    li = Message.objects.filter(telegram_id='120929625')
+def select_detail(request, pk):
+    li = Message.objects.filter(telegram_id=pk)
     return render(request, 'detail.html', {'messages': li})

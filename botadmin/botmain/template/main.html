@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Служба поддержки</title>
+</head>
+<body>
+<div class="main" style="margin: 25vh auto">
+<div class="header" style="text-align: center">Служба поддержки</div>
+    <div class="container">
+        {% for choice in messages %}
+        <li class="list-group-item d-flex justify-content-between align-items-left">
+            <a href={{ choice.telegram_id }}>Номер чата -- {{ choice.telegram_id }}</a>
+<!--                {% if choice. %}-->
+<!--                    <span class="badge badge-primary badge-pill">1</span>-->
+<!--                {% endif %}-->
+            </li>
+
+        {% endfor %}
+        </ul>
+    </div>
+</div>
+</body>
+</html>

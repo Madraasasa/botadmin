@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e045bec-9d20-492d-b626-2e0bc035f6de" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3e045bec-9d20-492d-b626-2e0bc035f6de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/botadmin/botmain/send_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botadmin/botmain/template/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botadmin/botmain/template/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botadmin/botmain/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/botadmin-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/botadmin-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botadmin/botadmin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botadmin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botadmin/botadmin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botadmin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botadmin/botmain/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botmain/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botadmin/botmain/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botmain/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botadmin/botmain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/botadmin/botmain/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,27 +26,44 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Xz0YuqXyCybbNiXl77F1KRutRj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/botadmin/botmain" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pycharm\botadmin\botadmin\botadmin\botmain" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm\botadmin\botadmin\botadmin\botmain\template" />
+      <recent name="D:\pycharm\botadmin\botadmin\botadmin\botmain" />
       <recent name="D:\botadmin-master\botadmin\botmain" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>

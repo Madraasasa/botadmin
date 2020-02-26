@@ -9,17 +9,58 @@
 <body>
 <div class="main" style="margin: 25vh auto">
 <div class="header" style="text-align: center">Служба поддержки</div>
-    <div class="container" style="background: gainsboro; width: 80%; border-radius: 10px;">
+    <div class="container" style="background: gainsboro; width: 60%; border-radius: 10px; padding: 10px;">
         {% for choice in messages %}
-        <div class="left" style="text-align: left; margin:10px;">{{ choice.text }}</div>
+        <div onClick = "getdetails(this)" id={{ choice.message_id }}>
+			<div class="left" id = "left{{ choice.message_id }}" style="text-align: left; margin:10px;">{{ choice.text }}</div>
+		</div>
         <div class="right" style="text-align: right; margin:10px;">{{ choice.answer }}</div>
         {% endfor %}
+		
+<!--		<input type="text" id="mes_id" value="" style="display: none;">-->
+        <form class="form-inline" style="display: grid!important; grid-template-columns: 3fr 1fr;">
+            <div class="form-group" style="display: none;">
+                <label for="mes_id" class="sr-only">Введите сообщение</label>
+                <input type="text" class="form-control" id="mes_id" placeholder="Введите сообщение" style="width: 90%;">
+            </div>
+            <div class="form-group">
+                <label for="message" class="sr-only">Введите сообщение</label>
+                <input type="text" class="form-control" id="message" placeholder="Введите сообщение" style="width: 90%;">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+            </div>
+
+        </form>
+
     </div>
 </div>
+	<script>
+    function getdetails(obj) {
+		
+        document.getElementById("mes_id").value = "@" + obj.id + "@ ";
+		document.getElementById("message").focus();
+        var x = document.getElementsByClassName("left");
+<!--        x.classList.remove('selected');-->
+        var elems = x;
+        [].forEach.call(elems, function(el) {
+            el.classList.remove("selected");
+        });
+        console.log('asas',x );
+
+		document.getElementById("left"+obj.id).classList.add("selected");
+    }
+</script>
     <style type="text/css">
         .right{
-            background: black;
+            background: gainsboro;
         }
+        .selected{
+			border-radius: 5px;
+            text-shadow: 1px 1px 2px, red 0px 0px 1em;
+            background: yellow;
+        }
+		
     </style>
 </body>
 </html>

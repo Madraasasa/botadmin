@@ -19,5 +19,7 @@ from . import views
 
 urlpatterns = [
     path('<int:pk>', views.select_detail, name='select_detail'),
-    path('', views.select_all, name='select_all')
+    path('update_message/', views.update_message, name='update_message'),
+    path('', views.select_all, name='select_all'),
+
 ]

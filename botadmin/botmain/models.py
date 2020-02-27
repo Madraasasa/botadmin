@@ -114,6 +114,10 @@ class Message(models.Model):
         super(Message, self).save(*args, **kwargs)
         send_message(self.message_id, self.telegram_id, self.answer)
 
+    def update(self, *args, **kwargs):
+        super(Message, self).update(*args, **kwargs)
+        send_message(self.message_id, self.telegram_id, self.answer)
+
     class Meta:
         verbose_name = 'Обращение'
         verbose_name_plural = 'Обращения'
